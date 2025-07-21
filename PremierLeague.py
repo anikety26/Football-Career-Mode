@@ -1,4 +1,3 @@
-
 t=1
 games={}
 hometeam=[]
@@ -45,7 +44,7 @@ def euro():
         
     return euro_winner
 def copa():
-    copateams=['Argentina','Brazil','Uruguay','Colombia','Argentina','Brazil','Uruguay','Colombia','Chile','Venezuela','Canada','Mexico','USA']
+    copateams=['Argentina','Brazil','Uruguay','Colombia','Argentina','Brazil','Uruguay','Colombia','Chile','Venezuela','Canada','Mexico','United States']
     copa_winner=random.choice(copateams)
     if copa_winner==your_national:
         year=2024+season
@@ -168,7 +167,7 @@ def chooseteam():
 nationalstart=['Argentina','Brazil','France','Germany','Spain','Portugal']
 def nationalchoose():
      print("Choose a national team:")
-     national=['Argentina','USA','Germany','France','Spain','Urugauy','France','Netherlands','Belgium','Italy','Portugal','Denmark','Brazil','Colombia']
+     national=['Argentina','United States','Germany','France','Spain','Urugauy','France','Netherlands','Belgium','Italy','Portugal','Denmark','Brazil','Colombia']
      can=1
      random.shuffle(national)
      nationalstart=[]
